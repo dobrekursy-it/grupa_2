@@ -32,3 +32,17 @@ Feature: Kółko i krzyżyk
     And gracz klika w "prawy" kafelek z "dolnego" rzędu
     And gracz klika w "lewy" kafelek z "środkowego" rzędu
     Then remis
+
+#  Scenario: Gra jest zresetowana
+#    Given gracz uruchomił grę
+#    When gracz klika w "lewy" kafelek z "górnego" rzędu
+#    And gracz klika w "środkowy" kafelek z "górnego" rzędu
+#    And gracz klika w "środkowy" kafelek z "środkowego" rzędu
+#    And gracz klika w "prawy" kafelek z "środkowego" rzędu
+#    And gracz klika w "prawy" kafelek z "górnego" rzędu
+#    And gracz klika w "lewy" kafelek z "dolnego" rzędu
+#    And gracz klika w "środkowy" kafelek z "dolnego" rzędu
+#    And gracz klika w "prawy" kafelek z "dolnego" rzędu
+#    And gracz klika w "lewy" kafelek z "środkowego" rzędu
+#    And gracz klika w powtórz
+#    Then gra jest pusta
