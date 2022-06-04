@@ -8,8 +8,8 @@ const liczby = [34, 5, 6, 7, 12, 12, 11];
 
 const posortuj = (tablica) => {
   let iteracje = 0;
-  for (let p = 0; p < tablica.length; p++) {
-    for (let index = 0; index < tablica.length - 1 - p; index += 1) {
+  for (let p = 1; p < tablica.length; p++) {
+    for (let index = 0; index < tablica.length - p; index += 1) {
       if (tablica[index] > tablica[index + 1]) {
         let tmp = tablica[index];
         tablica[index] = tablica[index + 1];
@@ -18,7 +18,6 @@ const posortuj = (tablica) => {
       iteracje += 1;
     }
   }
-  console.log(iteracje);
   return tablica;
 }
 

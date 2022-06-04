@@ -10,5 +10,3 @@ console.log(pozycjaNaFakturze.nazwa, pozycjaNaFakturze.cennaNetto);
 console.log(pozycjaNaFakturze);
 pozycjaNaFakturze.vat = 0.08;
 console.log(pozycjaNaFakturze);
-
-const pozycjaNaFakturze = {}

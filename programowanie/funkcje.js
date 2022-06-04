@@ -10,6 +10,7 @@ const znajdzNajwiekszaLiczbe = (liczby) => {
 }
 
 function wypiszElementyTablicyWiekszeOd(tablica, minWartosc) {
+  
   for (let i = 0; i< tablica.length; i++) {
     if (tablica[i] > minWartosc) {
       console.log(tablica[i]);

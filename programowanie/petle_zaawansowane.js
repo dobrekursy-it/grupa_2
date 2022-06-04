@@ -17,7 +17,7 @@ const liczby = [34,2,289,30, -4];
 
 
 let najwiekszaLiczba = liczby[0];
-for (let i = 0; i < liczby.length; i++) {
+for (let i = 1; i < liczby.length; i++) {
   if (liczby[i] > najwiekszaLiczba) {
     najwiekszaLiczba = liczby[i];
   }
